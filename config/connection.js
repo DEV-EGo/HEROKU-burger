@@ -10,7 +10,7 @@ else {
         port: 3306,
         user: process.env.USER || "root",
         password: process.env.PASSWORD || "root",
-        database: "burger_db"
+        database: process.env.DATABASE || "burger_db"
     });
 
 }
